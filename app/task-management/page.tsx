@@ -1,10 +1,10 @@
 import { Shell } from "../../frontend/components/shell";
-import { TaskManagementPageClient } from "../../frontend/components/task-management-page-client";
+import { MyTasksClient } from "../../frontend/components/my-tasks-client";
 
 export default function TaskManagementPage() {
   return (
     <Shell>
-      <TaskManagementPageClient />
+      <MyTasksClient />
     </Shell>
   );
 }
